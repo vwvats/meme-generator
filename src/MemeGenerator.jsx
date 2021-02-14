@@ -1,12 +1,12 @@
-import React, {Component} from "react"
+import React, {Component} from 'react'
 
 class MemeGenerator extends Component {
     constructor() {
         super()
         this.state = {
-            topText: "",
-            bottomText: "",
-            randomImg: "http://i.imgflip.com/1bij.jpg",
+            topText: '',
+            bottomText: '',
+            randomImg: 'http://i.imgflip.com/1bij.jpg',
             allMemeImgs: []
         }
         this.handleChange = this.handleChange.bind(this)
@@ -53,7 +53,7 @@ class MemeGenerator extends Component {
                         onChange={this.handleChange}
                     /> 
                 
-                    <button>Gen</button>
+                    <button>Generate</button>
                 </form>
                 <div className="meme">
                     <img src={this.state.randomImg} alt="" />
