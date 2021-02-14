@@ -1,0 +1,9 @@
+import React from 'react'
+
+function App() {
+    return (
+        <div>
+            <h1>React is Working!</h1>
+        </div>
+    )
+}
